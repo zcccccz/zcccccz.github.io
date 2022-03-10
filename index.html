@@ -1,17 +1,449 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 
-
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <title>感知与人机交互小组主页</title>
+
+	<!-- 页面标题
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>感知与人机交互设计网页展示</title>
+
+	<!-- 文字注释
+  ================================================== -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="Template" content="Bootstrap Template from the web：https://themefisher.com/free-bootstrap-templates/">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+	<meta name="Improver" content="PengJiawei">
+
+	<!-- 网页图标 -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+	<!-- CSS 样式 -->
+	<link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="plugins/slick/slick.css">
+	<link rel="stylesheet" href="plugins/slick/slick-theme.css">
+	<link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="plugins/aos/aos.css">
+	<link rel="stylesheet" href="css/style.css">
+
 </head>
 
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+	<!-- 导航条 -->
+	<header class="navigation fixed-top">
+		<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">感知与人机交互系统</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="ti-menu"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto">
+						<!-- 第一个 -->
+						<li class="nav-item dropdown active">
+							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">功能页面
+								<span><i class="ti-angle-down"></i></span>
+							</a>
+							<!-- 下拉菜单 -->
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item active" href="index.html">系统首页</a></li>
+								<li><a class="dropdown-item" href="#">暂定功能</a></li>
+								<li><a class="dropdown-item active3" href="#">暂定功能</a></li>
 
-<body>
-    <div>感知与人机交互小组主页</div>
-    <br><br>
-    <div>组员：</div><br>
-    <div>张从致，彭嘉炜，秦镛淳，朱顺安</div>
+								<li class="dropdown dropdown-submenu dropright">
+									<a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button"
+										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">校园网站</a>
+
+									<ul class="dropdown-menu" aria-labelledby="dropdown0301">
+										<li><a class="dropdown-item" href="https://www.seu.edu.cn/">东南大学</a></li>
+										<li><a class="dropdown-item" href="https://wjx.seu.edu.cn/">吴健雄学院</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<!-- 第二个 -->
+						<li class="nav-item dropdown @@pages">
+							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">系统模块
+								<span><i class="ti-angle-down"></i></span>
+							</a>
+							<!-- Dropdown list -->
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#team">开发团队</a></li>
+								<li><a class="dropdown-item" href="https://github.com/zcccccz/zcccccz.github.io">博客地址</a></li>
+								<li><a class="dropdown-item" href="#require">项目要求</a></li>
+								<li><a class="dropdown-item" href="#expectation">后续展望</a></li>
+							</ul>
+						</li>
+						<!-- 第三个 -->
+						<li class="nav-item @@about">
+							<a class="nav-link" href="#">团队介绍</a>
+						</li>
+						<!-- 第四个 -->
+						<li class="nav-item @@contact">
+							<a class="nav-link" href="#">详细信息</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End of 导航条 -->
+
+	<!-- 头图  -->
+	<section class="section gradient-banner">
+		<!-- 会动的小长条 -->
+		<div class="shapes-container">
+			<div class="shape" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="100"></div>
+			<div class="shape" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"></div>
+			<div class="shape" data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200"></div>
+			<div class="shape" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"></div>
+			<div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
+			<div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
+			<div class="shape" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300"></div>
+			<div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="200"></div>
+			<div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="100"></div>
+			<div class="shape" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="500"></div>
+			<div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="200"></div>
+			<div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="100"></div>
+			<div class="shape" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"></div>
+			<div class="shape" data-aos="fade-down" data-aos-duration="500" data-aos-delay="0"></div>
+			<div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="100"></div>
+			<div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="0"></div>
+		</div>
+		<!-- 介绍文字 -->
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-7 order-2 order-md-1 text-center text-md-left">
+					<h1 class="text-white font-weight-bold mb-4">感知与人机交互系统</h1>
+					<p class="text-white mb-5">欢迎访问该网站，此网站为东南大学《感知与人机交互》课程学生项目设计，展示课程设计成果，目前正在开发完善之中。</p>
+					<a href="#require" class="btn btn-main-md">查看详细要求</a>
+				</div>
+				<div class="col-md-5 text-center order-1 order-md-2">
+					<img class="img-fluid" src="images/image-310/R-C.png" alt="screenshot">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====  End of 头图  ====-->
+
+	<!-- 头图下方小横条 -->
+	<section class="section pt-0 position-relative pull-top">
+		<div class="container">
+			<div class="rounded shadow p-5 bg-white">
+				<div class="row">
+					<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
+						<i class="ti-paint-bucket text-primary h1"></i>
+						<h3 class="mt-4 text-capitalize h5 ">简约设计</h3>
+						<p class="regular text-muted">
+							回归本质，沉没繁琐<br />
+							简约风受到越来越多用户的喜爱 <br />
+							本系统同样在设计上追求简约 <br />
+
+						</p>
+					</div>
+					<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
+						<i class="ti-shine text-primary h1"></i>
+						<h3 class="mt-4 text-capitalize h5 ">清爽色彩</h3>
+						<p class="regular text-muted">
+							舒适享受，沉淀心境<br />
+							本系统以明亮白色与蓝色作为主题色 <br />
+							视觉上给用户营造舒适清爽的感受 <br />
+
+						</p>
+					</div>
+					<div class="col-lg-4 col-md-12 mt-5 mt-lg-0 text-center">
+						<i class="ti-thought text-primary h1"></i>
+						<h3 class="mt-4 text-capitalize h5 ">智能体验</h3>
+						<p class="regular text-muted">
+							释放智慧，沉浸其中<br />
+							本系统以人工智能为基础开发各类应用 <br />
+							为用户带来先进科技人机交互盛宴 <br />
+						</p>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<!--  End of 头图下方小横条 -->
+
+	<!-- 开发团队 -->
+	<section class="design-team section pt-0" id = "team">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="section-title">
+						<h2>开发团队</h2>
+						<p><a href="#">本系统</a>为东南大学《感知与人机交互》课程2022年第3学期课程项目<br />
+							由东南大学四名在读本科生共同开发 <br />
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<!-- 第一位成员 -->
+				<div class="col-lg-3 col-md-6">
+					<div class="team-sm">
+						<!-- 人员图片 -->
+						<div class="image">
+							<img class="w-100" src="images/image-310/index-pjw.jpg" alt="member-image">
+							<!-- 图片链接 -->
+							<div class="social-links">
+								<ul class="list-inline">
+									<li class="list-inline-item"><a href="https://github.com/GaryJiajia"><i
+												class="ti-github"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- 姓名 -->
+						<h3>61519109 彭嘉炜</h3>
+						<!-- 身份 -->
+						<cite>项目成员</cite>
+						<!-- 介绍 -->
+						<p>
+							东南大学吴健雄学院大三本科生 <br />
+							Junior undergraduate <br />
+							Chien-Shiung Wu College <br />
+							Southeast University <br />
+						</p>
+					</div>
+				</div>
+				<!-- 第二位成员 -->
+				<div class="col-lg-3 col-md-6">
+					<div class="team-sm">
+						<!-- 人员图片 -->
+						<div class="image">
+							<img class="w-100" src="images/image-310/index-zcz.JPG" alt="member-image">
+							<!-- 图片链接 -->
+							<div class="social-links">
+								<ul class="list-inline">
+									<li class="list-inline-item"><a href="https://github.com/zcccccz"><i
+												class="ti-github"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- 姓名 -->
+						<h3>61519112 张从致</h3>
+						<!-- 身份 -->
+						<cite>项目成员</cite>
+						<!-- 介绍 -->
+						<p>
+							东南大学吴健雄学院大三本科生 <br />
+							Junior undergraduate <br />
+							Chien-Shiung Wu College <br />
+							Southeast University <br />
+						</p>
+					</div>
+				</div>
+				<!-- 第三位成员 -->
+				<div class="col-lg-3 col-md-6">
+					<div class="team-sm">
+						<!-- 人员图片 -->
+						<div class="image">
+							<img class="w-100" src="images/image-310/index-qyc.jpg" alt="member-image">
+							<!-- 图片链接 -->
+							<div class="social-links">
+								<ul class="list-inline">
+									<li class="list-inline-item"><a href="https://github.com/qinyongchun"><i
+												class="ti-github"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- 姓名 -->
+						<h3>61519122 秦镛淳</h3>
+						<!-- 身份 -->
+						<cite>项目成员</cite>
+						<!-- 介绍 -->
+						<p>
+							东南大学吴健雄学院大三本科生 <br />
+							Junior undergraduate <br />
+							Chien-Shiung Wu College <br />
+							Southeast University <br />
+						</p>
+					</div>
+				</div>
+				<!-- 第四位成员 -->
+				<div class="col-lg-3 col-md-6">
+					<div class="team-sm">
+						<!-- 人员图片 -->
+						<div class="image">
+							<img class="w-100" src="images/image-310/index-zsa.jpg" alt="member-image">
+							<!-- 图片链接 -->
+							<div class="social-links">
+								<ul class="list-inline">
+									<li class="list-inline-item"><a href="#"><i class="ti-github"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- 姓名 -->
+						<h3>61519226 朱顺安</h3>
+						<!-- 身份 -->
+						<cite>项目成员</cite>
+						<!-- 介绍 -->
+						<p>
+							东南大学吴健雄学院大三本科生 <br />
+							Junior undergraduate <br />
+							Chien-Shiung Wu College <br />
+							Southeast University <br />
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End of 开发团队  -->
+
+	<!-- 项目介绍 -->
+	<section class="feature section pt-0" id = "require">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 ml-auto align-self-center">
+					<div class="feature-content">
+						<!-- 标题 -->
+						<h2>项目要求
+							<!-- Feature Description -->
+							<p>
+								<br />项目必须使用一个或多个人机交互原则和技术，并具有良好的用户界面。<br />仅仅依靠静态信息或管理表单的系统是不够的。<br /><br />
+								用户界面必须是交互式的——简单地通过多个页面显示文本或序列的系统是不行的，静态页面网站也是不行的。<br /><br />
+								用户界面/应用程序不应该已经作为商业产品存在。<br />（需要设计一些新颖的东西）<br /><br />
+								理想情况下，需要有两名代表系统最终受众用户的人员来体验。<br /><br />
+							</p>
+					</div>
+					<!-- Testimonial Quote -->
+					<div class="testimonial">
+						<p>
+							The key problem of artificial intelligence is its manifestation.<br />
+							"人工智能的关键性问题是其表现形式。"
+
+						</p>
+						<ul class="list-inline meta">
+							<li class="list-inline-item">
+								<img src="images/image-310/Jeff Hawkins.jpg" alt="">
+							</li>
+							<li class="list-inline-item">Jeff Hawkins</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-6 mr-auto justify-content-center">
+					<!-- Feature mockup -->
+					<div class="image-content" data-aos="fade-left">
+						<img class="img-fluid" src="images/image-310/pic1.png" alt="插图1">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End of 项目介绍 -->
+
+
+	<!-- 后续展望 -->
+	<section class="video-promo section bg-1" id = "expectation">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="content-block">
+						<!-- Heading -->
+						<h2>后续展望</h2>
+						<!-- Promotional Speech -->
+						<p>
+							从第4课开始，选择至少一种技术进行汇报：<br />
+							人机交互<br />
+							虚拟现实，增强现实，混合现实<br />
+							脑机接口/脑机接口<br />
+							眼球跟踪<br />
+							运动捕捉<br />
+							语音识别和自然语言处理<br />
+							全息投影<br />
+							基于触觉、力反馈、嗅觉<br />
+							……<br />
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End of 后续展望 -->
+
+	<!-- 底部 -->
+	<footer>
+		<div class="footer-main">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+						<!-- 空 -->
+					</div>
+					<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+						<div class="block-2">
+							<h6>功能页面</h6>
+							<ul>
+								<li><a href="index.html">首页</a></li>
+								<li><a href="#">功能暂定</a></li>
+								<li><a href="#">功能暂定</a></li>
+								<li><a href="#">功能暂定</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+						<div class="block-2">
+							<h6>系统模块</h6>
+							<ul>
+								<li><a href="#team">开发团队</a></li>
+								<li><a href="https://github.com/zcccccz/zcccccz.github.io">博客地址</a></li>
+								<li><a href="#require">项目要求</a></li>
+								<li><a href="#expectation">后续展望</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+						<div class="block-2">
+							<h6>暂定功能</h6>
+							<ul>
+								<li><a href="#">功能暂定</a></li>
+								<li><a href="#">功能暂定</a></li>
+								<li><a href="#">功能暂定</a></li>
+								<li><a href="#">功能暂定</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+						<div class="block-2">
+							<h6>暂定功能</h6>
+							<ul>
+								<li><a href="#">功能暂定</a></li>
+								<li><a href="#">功能暂定</a></li>
+								<li><a href="#">功能暂定</a></li>
+								<li><a href="#">功能暂定</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="text-center bg-dark py-4">
+			<small class="text-secondary">Copyright &copy;
+				<script>document.write(new Date().getFullYear())</script>. Designed &amp; Developed by <a
+					href="https://www.seu.edu.cn/">SEUers</a>
+			</small class="text-secondary">
+		</div>
+	</footer>
+	<!-- End of 底部 -->
+
+	<!-- 回到顶部 -->
+	<div class="scroll-top-to">
+		<i class="ti-angle-up"></i>
+	</div>
+
+	<!-- js文件 -->
+	<script src="plugins/jquery/jquery.min.js"></script>
+	<script src="plugins/bootstrap/bootstrap.min.js"></script>
+	<script src="plugins/slick/slick.min.js"></script>
+	<script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+	<script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+	<script src="plugins/aos/aos.js"></script>
+	<script src="js/script.js"></script>
 </body>
+
 </html>
