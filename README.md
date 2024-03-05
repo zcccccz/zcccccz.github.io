@@ -1,2 +1,1 @@
-### My homepage
-https://zcccccz.github.io
+My homepage: https://zcccccz.github.io
