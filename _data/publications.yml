@@ -19,4 +19,5 @@ main:
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     # notes: Oral Presentation
-    image: ./assets/img/causal_walk.png
+    # image: ./assets/img/causal_walk.png
+    image: ./assets/img/framework.svg
