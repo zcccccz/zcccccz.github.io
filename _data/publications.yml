@@ -7,7 +7,7 @@ main:
     pdf: https://aclanthology.org/2023.findings-acl.384.pdf
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/model.pdf
+    image: ./assets/img/model.png
     # notes: Early Accept
 
   - title: "Causal Walk: Debiasing Multi-Hop Fact Verification with Front-Door Adjustment"
