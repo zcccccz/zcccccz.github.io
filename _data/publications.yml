@@ -21,3 +21,15 @@ main:
     # notes: Oral Presentation
     # image: ./assets/img/causal_walk.png
     image: ./assets/img/framework.svg
+
+  - title: "Causal Prompting: Debiasing Large Language Model Prompting based on Front-Door Adjustment"
+    authors: <strong>Congzhi Zhang</strong>, Linhai Zhang, Deyu Zhou
+    conference_short: arxiv
+    conference: arxiv, 2024.
+    pdf: https://arxiv.org/pdf/2403.02738.pdf
+    # code: https://github.com/zcccccz/CausalWalk
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # notes: Oral Presentation
+    # image: ./assets/img/causal_walk.png
+    image: ./assets/img/causal_prompting.png
