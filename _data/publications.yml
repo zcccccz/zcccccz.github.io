@@ -23,7 +23,7 @@ main:
     image: ./assets/img/framework.svg
 
   - title: "Causal Prompting: Debiasing Large Language Model Prompting based on Front-Door Adjustment"
-    authors: <strong>Congzhi Zhang</strong>, Linhai Zhang, Deyu Zhou
+    authors: <strong>Congzhi Zhang</strong>, Linhai Zhang, Jialong Wu, Deyu Zhou, Yulan He
     conference_short: arxiv
     conference: arxiv, 2024.
     pdf: https://arxiv.org/pdf/2403.02738.pdf
