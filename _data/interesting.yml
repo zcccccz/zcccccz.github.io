@@ -1,0 +1,11 @@
+main:
+
+  - title: Turing Award winner Pearl mentioned my paper.
+    # authors: Linhai Zhang, <strong>Congzhi Zhang</strong>, Deyu Zhou
+    # conference_short: ACL
+    # conference: Findings of the Association for Computational Linguistics <strong>(ACL)</strong>, 2023.
+    # pdf: https://aclanthology.org/2023.findings-acl.384.pdf
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/pearl.png
+    # notes: Early Accept
