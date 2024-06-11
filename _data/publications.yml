@@ -5,6 +5,7 @@ main:
     conference_short: ACL
     conference: Findings of the Association for Computational Linguistics <strong>(ACL)</strong>, 2023.
     pdf: https://aclanthology.org/2023.findings-acl.384.pdf
+    link: https://aclanthology.org/2023.findings-acl.384/
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/model.png
@@ -14,7 +15,8 @@ main:
     authors: <strong>Congzhi Zhang*</strong>, Linhai Zhang*, Deyu Zhou
     conference_short: AAAI
     conference: The 38th Annual AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2024.
-    pdf: https://arxiv.org/pdf/2403.02698.pdf
+    pdf: https://ojs.aaai.org/index.php/AAAI/article/view/29925/31616
+    link: https://ojs.aaai.org/index.php/AAAI/article/view/29925
     code: https://github.com/zcccccz/CausalWalk
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
@@ -27,6 +29,7 @@ main:
     conference_short: arxiv
     conference: arxiv, 2024.
     pdf: https://arxiv.org/pdf/2403.02738.pdf
+    link: https://arxiv.org/abs/2403.02738
     # code: https://github.com/zcccccz/CausalWalk
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
