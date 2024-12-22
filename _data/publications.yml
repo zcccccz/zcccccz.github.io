@@ -25,9 +25,9 @@ main:
     image: ./assets/img/framework.svg
 
   - title: "Causal Prompting: Debiasing Large Language Model Prompting based on Front-Door Adjustment"
-    authors: <strong>Congzhi Zhang</strong>, Linhai Zhang, Jialong Wu, Deyu Zhou, Yulan He
-    conference_short: arxiv
-    conference: arxiv, 2024.
+    authors: <strong>Congzhi Zhang*</strong>, Linhai Zhang*, Jialong Wu*, Deyu Zhou, Yulan He
+    conference_short: AAAI
+    conference: The 39th Annual AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2403.02738.pdf
     link: https://arxiv.org/abs/2403.02738
     # code: https://github.com/zcccccz/CausalWalk
