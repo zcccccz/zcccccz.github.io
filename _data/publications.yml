@@ -36,3 +36,29 @@ main:
     # notes: Oral Presentation
     # image: ./assets/img/causal_walk.png
     image: ./assets/img/causal_prompting.svg
+
+  - title: "AdaCQR: Enhancing Query Reformulation for Conversational Search via Sparse and Dense Retrieval Alignment"
+    authors: Yilong Lai*, Jialong Wu*, <strong>Congzhi Zhang</strong>, Haowen Sun, Deyu Zhou
+    conference_short: COLING
+    conference: The 31st International Conference on Computational Linguistics (COLING 2025).
+    pdf: https://arxiv.org/pdf/2407.01965
+    link: https://arxiv.org/abs/2407.01965
+    code: https://github.com/init0xyz/AdaCQR
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # notes: Oral Presentation
+    # image: ./assets/img/causal_walk.png
+    image: ./assets/img/adacqr.png
+
+  - title: "SEED: Accelerating Reasoning Tree Construction via Scheduled Speculative Decoding"
+    authors: Zhenglin Wang*, Jialong Wu*, Yilong Lai, <strong>Congzhi Zhang</strong>, DeyuZhou
+    conference_short: COLING
+    conference: The 31st International Conference on Computational Linguistics (COLING 2025).
+    pdf: https://arxiv.org/pdf/2406.18200
+    link: https://arxiv.org/abs/2406.18200
+    code: https://github.com/Linking-ai/SEED
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # notes: Oral Presentation
+    # image: ./assets/img/causal_walk.png
+    image: ./assets/img/seed.png
