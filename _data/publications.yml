@@ -62,3 +62,16 @@ main:
     # notes: Oral Presentation
     # image: ./assets/img/causal_walk.png
     image: ./assets/img/seed.png
+
+  # - title: "VReST: Enhancing Reasoning in Large Vision-Language Models through Tree Search and Self-Reward Mechanism"
+    # authors: Zhenglin Wang*, Jialong Wu*, Yilong Lai, <strong>Congzhi Zhang</strong>, DeyuZhou
+    # conference_short: Arxiv
+    # conference: The 31st International Conference on Computational Linguistics (COLING 2025).
+    # pdf: https://arxiv.org/pdf/2406.18200
+    # link: https://arxiv.org/abs/2406.18200
+    # code: https://github.com/Linking-ai/SEED
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # notes: Oral Presentation
+    # image: ./assets/img/causal_walk.png
+    # image: ./assets/img/vrest.png
